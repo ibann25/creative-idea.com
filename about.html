@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width= device width, initial-scale=1.0">
+        <title>Learn More About Human Computer Interaction</title> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+    rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/1015914bbb.js" crossorigin="anonymous"></script>
+    </head> 
+    <body>
+        <section class="sub-header">
+                <nav>
+                    <a href="index.html"><img src="images/logo.png"></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html#topic">Topics</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="about.html">About</a></li>  
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>         
+                </nav>
+                <h1>Self-Background</h1> 
+        </section>
+
+    <!--------About Me content--------->
+
+    <section class="about-me">
+
+        <div class="row">
+
+            <div class="about-col">
+
+                <h1>“The best way to get started is to<br>quit talking and begin doing.”</h1>
+                   <p> – Walt Disney<br><br>
+                    Challenges make us stronger by times. It serve as our stepping<br>
+                    stone in achieving one's goal.To be motivated is one of my deepest<br>
+                    goal to start walking in my journey as a living being in this world.<br>
+                    To find satisfaction, happiness, peace, and joy is one of my priorities<br>
+                    in life. Live with simple and surrounded with good people are the best<br>
+                    way to start a living.<br><br>
+
+                    A simple greetings to everyone!<br><br>
+
+                    Hi, welcome to my website! It's my pleasure to have all of you here.<br>
+                    I am Ivan L. Taganahan, 19 years of age. Born and raised on 22nd of<br>
+                    January, 2003. Currently living at Santa Maria Pagadian City. I finished<br>
+                    my SHS at Holy Child's Academy of Pagadian City and continued my studies<br>
+                    as a college student in Bachelor of Sciene in Information Technology<br>
+                    (BSIT) at JHCSC-PAGADIAN CAMPUS. Thank You!<br><br>
+
+                    Have a blessed day!
+                </p>
+
+            </div>
+
+            <div class="about-col">
+                <img src="images/me.jpg">
+            </div>
+
+        </div>
+        
+    </section>
+        <!--------About Footer--------->
+
+<section class="about">
+    <p>About Me<br>Just click the icons to know more about me ! <i class="fa fa-heart"></i> </p>
+    <div class="icons">
+       <a href="https://www.facebook.com/vntgnhn"> <i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/vn_tgnhn/"><i class="fa fa-instagram"></i></a>
+        <a href="https://youtube.com/channel/UCBGOyn8HsbBLXvWCQvpYsHA"><i class="fa fa-youtube"></i></a>
+    </div>
+    <p>&copy; Copyright 2022 Ivan Taganahn (JHCSC-PAGADIAN CAMPUS). All right Reserved.</p>
+</section>
+
+<!--------JavaScript for Toggle Menu------->
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
